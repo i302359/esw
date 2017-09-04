@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 31, 2017, 9:22:48 AM
+    Author     : sander
+*/
+
+html, body                  { margin:0px; padding:0px; font-family: 'Droid Serif', serif }
+body                        { border: 3px solid black; width: 800px; margin: 20px auto}
+
+h1                          { font-family: 'Droid Serif', serif; font-weight:normal; font-size: 22px}
+h2                          { font-family: 'Droid Serif', serif; font-weight:bold; font-size: 17px}
+
+.clearer                    { clear:both; }
+
+#nav                        { background: rgb(230, 0, 0)}
+#nav ul                     { float:right; margin: 4px 0; padding: 0; }
+#nav ul li                  { display: inline-block; }
+#nav ul li a                { display: block; color: white; padding: 3px 6px; margin: 3px; font-size: 14px; line-height: 12px; text-decoration: none}
+#nav ul li a:hover, 
+#nav ul li a:active         { text-decoration: underline; }
+#nav #title                 { float: left; color: white; padding: 4px }
+
+#post-input-form fieldset   { margin: 20px }
+#post-input-form legend     { font-size: 14px }
+#post-input-form label.field{ text-align: left; width: 100px; float: left; font-weight: bold }
+#post-input-form input      { width: 300px; float: left }
+#post-input-form textarea   { float: left; heigth: auto; width: 80%; }
+#post-input-form p          { padding: 5px; clear: both }
+#post-input-form 
+    input[type=submit]      { float: right; width: auto }
+
+#left-content               { float: left; width: 34%; }
+#right-content              { float: right; width: 66%; }
+#left-content-item          { margin: 15px 5px}
+#left-content-item ul       { margin: 4px 10px; padding: 0; }
+#left-content-item li       { list-style-type: none}
+
+#posts                      { margin: 5px; border: 2px solid black}
+#post                       { margin: 5px; border: 1px solid black}
+#post-title                 { font-weight: bold }
+#post-content               { margin: 3px }
+#post-date                  { font-style: italic; font-size: 8px; text-align: right; margin-right: 2px}
+
+#comments                   { margin: 5px 5px 5px 15px; font-size: 14px; font-style: italic}
+#comment                    { border: 1px solid black; margin-top: 2px; margin-bottom: 2px}
+#post-comment               { text-align: right; font-size: 12px}
